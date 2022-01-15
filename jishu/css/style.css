@@ -40,6 +40,8 @@ header {
 	position: relative;
 	background-color: #FFDDA1;
 	align-items: center;
+	box-shadow: 0 2px 2px 0 rgba(73, 73, 73, 0.5);
+
 }
 /*ロゴ画像*/
 header #logo img {
@@ -48,6 +50,8 @@ header #logo img {
 	left: 3%;		/*左から3%の場所に配置*/
 	top: 2px;		/*上から75pxの場所に配置*/
 	border-radius: 10px;
+	box-shadow: 0 2px 2px 0 rgba(73, 73, 73, 0.5);
+
 }
 /*ヘッダー右上の画像*/
 #header-img img {
@@ -185,9 +189,12 @@ header #logo img {
 ---------------------------------------------------------------------------*/
 /*ロゴ画像*/
 header #logo img {
-	width: 200px;	/*画像の幅*/
-	left: 0px;		/*左から0pxの場所に配置*/
-	top: 1px;		/*上から85pxの場所に配置*/
+	width: 146px;		/*画像の幅*/
+	position: absolute;z-index: 2;
+	left: 3%;		/*左から3%の場所に配置*/
+	top: 2px;		/*上から75pxの場所に配置*/
+	border-radius: 10px;
+	box-shadow: 0 2px 2px 0 rgba(73, 73, 73, 0.5);
 }
 	
 /*メインメニュー
@@ -285,13 +292,8 @@ body.s-n #sub,body.s-n #footermenu,.m-n {display: none;}
 /*ヘッダー（ロゴが入った最上段のブロック）
 ---------------------------------------------------------------------------*/
 /*ヘッダーブロック*/
-header {
-	height: 100px;	/*ヘッダーの高さ*/
-}
-/*ロゴ画像*/
-header #logo img {
-	top: 35px;		/*上から35pxの場所に配置*/
-}
+
+
 /*ヘッダー右上の画像*/
 #header-img img {
 	top: 0px;		/*上から0pxの場所に配置。*/
