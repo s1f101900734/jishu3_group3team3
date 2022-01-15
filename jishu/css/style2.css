@@ -507,9 +507,7 @@
 		margin-left: auto;
 		padding: 5px;
 	}
-	p.box1 {
-		font-size: 2px;
-	}
+
 	
 	.main-content {
 		margin-right: auto;
@@ -548,7 +546,6 @@
 	}
 	.title {
 		text-align: center;
-		font-size: 12px;
 		margin-top: 2px;
 	}
 	
